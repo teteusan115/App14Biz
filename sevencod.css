@@ -1,0 +1,202 @@
+* {
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif
+}
+.circler {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #6B96FC;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-top: 8px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+
+.circle {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: #279835;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 18px;
+	margin-right: 20px;
+	margin-top: 8px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+}
+
+#titler{
+	
+	font-family: verdana;
+	font-size: 24px;
+	color: black;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	float: left
+	font-weight: bold;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#all {
+	
+	
+	
+}
+
+table {
+	font-size: 12px;
+	
+}
+th {
+	border: 1px solid #f2f2f2!important;
+}
+td {
+	border: 1px solid #f2f2f2!important;
+}
+
+
+#app {
+	padding: 30px 20px;
+	
+}
+
+@media screen and (min-width:769px) {
+	#app {
+		width: 400px;
+		margin: 60px auto
+	}
+}
+
+#numbers {
+	padding: 10px;
+	text-align: center;
+	display: inline-block
+}
+
+#house-buttons .house-buttons,
+.number {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	margin: 3px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: arial, helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 100%;
+	border: 1px solid #6f6f6f;
+	background: #f2f5f6;
+	color: #6f6f6f
+}
+
+#house-buttons .number-selected.house-buttons,
+.number.number-selected {
+	border-color: #6B96FC;
+	background-color: #6B96FC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6B96FC), to(#6B96FC));
+	background-image: linear-gradient(180deg, #6B96FC, #6B96FC);
+	color: #fff
+}
+
+#house-buttons .number-hidden.house-buttons,
+.number.number-hidden {
+	opacity: .3;
+	cursor: auto
+}
+
+.step-title {
+	padding: 10px;
+	margin: 0;
+	font-weight: 100;
+	font-size: 20px;
+	color: #666
+}
+
+.step-title small {
+	font-weight: 700;
+	color: #777
+}
+
+#house {
+	margin-top: 30px
+}
+
+#house #house-buttons .house-buttons,
+#house-buttons #house .house-buttons,
+#house .number {
+	cursor: auto
+}
+
+#house #house-buttons .house-buttons:nth-child(n+13),
+#house-buttons #house .house-buttons:nth-child(n+13),
+#house .number:nth-child(n+13) {
+	border-color: #FF5A92;
+	background-color: #FF5A92;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5A92), to(#FF5A92));
+	background-image: linear-gradient(180deg, #FF5A92, #FF5A92)
+}
+
+.houses {
+	margin-bottom: 40px
+}
+
+#house-buttons {
+	margin: 10px 0 30px
+}
+
+#house-buttons span {
+	padding: 0 20px;
+	font-size: 15px;
+	color: #888
+}
+
+#house-buttons .house-buttons {
+	line-height: 40px;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	opacity: .3
+}
+
+#house-buttons .house-buttons:enabled {
+	opacity: 1
+}
+
+.button-action {
+	margin-top: 75px
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #888;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
